@@ -22,7 +22,7 @@ public class Main {
 }
 
 class Problem1 {
-    int computePoints(String content) {
+    public int computePoints(String content) {
         int result = 0;
         String[] cards = content.split("\\r?\\n");
 
@@ -56,7 +56,7 @@ class Problem1 {
 }
 
 class Problem2 {
-    int computeInstances(String content) {
+    public int computeInstances(String content) {
         Map<Integer, Integer> instancesMap = new HashMap<>();
         String[] cards = content.split("\\r?\\n");
         int result = 0;
