@@ -77,7 +77,6 @@ class Problem2 {
         String[] rawGames = content.split("\\r?\\n");
 
         for (String rawGame : rawGames) {
-            int gameNum = Integer.parseInt(rawGame.substring(5, rawGame.indexOf(":")));
             String[] hands = rawGame.substring(rawGame.indexOf(':') + 2).split("; ");
             int maxRed = 1;
             int maxGreen = 1;
