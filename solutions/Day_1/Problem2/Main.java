@@ -1,4 +1,4 @@
-package solutions.Day1.Problem2;
+package solutions.Day_1.Problem2;
 
 import java.io.IOException;
 
@@ -18,7 +18,7 @@ public class Main {
         URI inputUri = Objects.requireNonNull(Main.class.getResource("input.txt")).toURI();
         String content = new String(Files.readAllBytes(Paths.get(inputUri)));
 
-        int result = new solutions.Day1.Problem2.Solution().computeCalibrationSum(content);
+        int result = new solutions.Day_1.Problem2.Solution().computeCalibrationSum(content);
         System.out.println("\nThe answer is: " + result);
     }
 }
