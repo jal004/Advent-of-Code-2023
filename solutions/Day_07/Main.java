@@ -1,4 +1,4 @@
-package solutions.Day_7;
+package solutions.Day_07;
 
 import java.io.IOException;
 import java.net.URI;
@@ -13,7 +13,7 @@ import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) throws IOException, URISyntaxException {
-        URI inputUri = Objects.requireNonNull(solutions.Day_7.Main.class.getResource("input.txt")).toURI();
+        URI inputUri = Objects.requireNonNull(solutions.Day_07.Main.class.getResource("input.txt")).toURI();
         String content = new String(Files.readAllBytes(Paths.get(inputUri)));
 
         System.out.println("The answer to Problem 1 is: " + new Problem1().solution(content));

@@ -1,4 +1,4 @@
-package solutions.Day_1.Problem1;
+package solutions.Day_01.Problem1;
 
 import java.io.IOException;
 
@@ -12,10 +12,10 @@ import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) throws IOException, URISyntaxException {
-        URI inputUri = Objects.requireNonNull(solutions.Day_1.Problem2.Main.class.getResource("input.txt")).toURI();
+        URI inputUri = Objects.requireNonNull(solutions.Day_01.Problem2.Main.class.getResource("input.txt")).toURI();
         String content = new String(Files.readAllBytes(Paths.get(inputUri)));
 
-        int result = new solutions.Day_1.Problem1.Solution().calibrationSum(content);
+        int result = new solutions.Day_01.Problem1.Solution().calibrationSum(content);
         System.out.println("\nThe answer is: " + result);
     }
 }

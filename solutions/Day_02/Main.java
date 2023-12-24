@@ -1,4 +1,4 @@
-package solutions.Day_2;
+package solutions.Day_02;
 
 import java.io.IOException;
 import java.net.URI;

@@ -1,4 +1,4 @@
-package solutions.Day_8;
+package solutions.Day_08;
 
 import java.io.IOException;
 import java.net.URI;
@@ -14,7 +14,7 @@ import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) throws IOException, URISyntaxException {
-        URI inputUri = Objects.requireNonNull(solutions.Day_8.Main.class.getResource("input.txt")).toURI();
+        URI inputUri = Objects.requireNonNull(solutions.Day_08.Main.class.getResource("input.txt")).toURI();
         String content = new String(Files.readAllBytes(Paths.get(inputUri)));
 
         System.out.println("The answer to Problem 1 is: " + new Problem1().solution(content));
