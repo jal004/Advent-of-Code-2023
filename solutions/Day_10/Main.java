@@ -87,6 +87,7 @@ class Problem1 {
     static Map<String, Point> dirToPt = getDirMap();
     static Map<List<Point>, String> dirsToPipe = getDirsToPipeMap();
     static Map<String, List<Point>> pipeToDirs = getPipeToDirsMap();
+
     public int solution(String content) {
         String[] sections = content.split("\\r?\\n");
         int numRows = sections.length;
